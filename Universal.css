@@ -64,7 +64,7 @@ position: relative;
     background-clip: border-box;
     border: 0 solid rgba(0,0,0,.125);
     border-radius: .25rem;
-	text-align: center;
+	
 }
 
 .card-body {
@@ -367,3 +367,45 @@ form .btn{
     width : 100%;
 }
   /*end of mykolo stuff*/
+
+  /*Kamile profile page*/
+.body__wrapper {
+    width: 100vh;
+    margin: auto;
+}
+
+.main-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.row__first{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-column-gap: 10px;
+}
+
+
+.box__icon{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.container__social {
+    padding: 10px;
+    display: flex;  
+    column-gap: 5px; 
+}
+.icon__size {
+    font-size: large;
+}
+/*Kamile profile page end*/
