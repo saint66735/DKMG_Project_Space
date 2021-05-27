@@ -17,16 +17,18 @@
 <div class="center">
     <h2>Profile Settings</h2>
     <hr>
-    <form method="POST" >
-      <label for="fname">Full Name </label>
-      <input type="text" id="fname" name="fname"><br><br>
-      <label for="email">Email Adress</label>
-      <input type="email" id="email" name="email"><br><br>
-      <label for="position">Position</label>
-      <input type="text" id="position" name="position"><br><br>
-      <label for="password">Password</label>
-      <input type="password" id="password"name="password"><br><br>
-      <input type="submit" value="Submit">
+    <form method="POST" enctype="multipart/form-data" style="display: flex; align-items: left; flex-direction: column;" >
+      <label for="pfp" class="inputText">Profile Picture</label>
+      <input type="file" id="pfp" name="pfp">
+      <label for="fname" class="inputText">Full Name </label>
+      <input type="text" id="fname" name="fname" class="inputText">
+      <label for="email" class="inputText">Email Adress</label>
+      <input type="email" id="email" name="email" class="inputText">
+      <label for="position" class="inputText">Position</label>
+      <input type="text" id="position" name="position" class="inputText">
+      <label for="password" class="inputText">Password</label>
+      <input type="password" id="password"name="password" class="inputText"><br />
+      <input type="submit" value="Submit" >
     </form>
 </div>
 
